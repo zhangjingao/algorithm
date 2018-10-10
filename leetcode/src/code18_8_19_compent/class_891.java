@@ -14,13 +14,9 @@ public class class_891 {
         for (int i = 0; i< len; i++) {
             numCount = 2;
             for (int j = i+1; j < len; j++) {
-
-
-
                 result += getChild(A, i, j);
             }
         }
-
         return result;
     }
 
