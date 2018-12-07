@@ -1,4 +1,7 @@
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -10,6 +13,7 @@ public class TestSca {
     public static void main(String[] args) {
         //12345 两位数 12，13
         int [] arr = {1,2,3,44,5};
+        List<int[]> lists = Arrays.asList(arr);
         int test = 100;
         sort(arr, test);
         for (int i = 0; i < arr.length; i++) {
