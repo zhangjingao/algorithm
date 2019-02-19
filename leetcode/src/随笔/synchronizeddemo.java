@@ -14,7 +14,7 @@ public class synchronizeddemo implements Runnable {
     @Override
     public void run() {
         for (int j = 0; j < 100; j++) {
-            System.out.println("线程名字为："+Thread.currentThread().getName());
+            System.out.println("线程名字为："+ Thread.currentThread().getName());
             increase();
         }
     }
@@ -29,6 +29,6 @@ public class synchronizeddemo implements Runnable {
         //join含义:当前线程A等待thread线程终止之后才能从thread.join()返回
 //        t1.join();
 //        t2.join();
-        System.out.println("线程名字为："+Thread.currentThread().getName()+" "+i);
+        System.out.println("线程名字为："+ Thread.currentThread().getName()+" "+i);
     }
 }
