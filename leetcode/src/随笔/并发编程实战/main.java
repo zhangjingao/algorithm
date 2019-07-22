@@ -7,7 +7,7 @@ package 随笔.并发编程实战;
 public class main {
 
     public static void main(String[] args) {
-
+        ThreadLocal n;
     }
 
 }

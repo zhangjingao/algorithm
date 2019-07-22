@@ -27,7 +27,7 @@ public class StackOverFlow {
 
     /*
     测试虚拟机栈溢出
-    Exception in thread "main" java.lang.StackOverflowError
+    Exception Main1 thread "main" java.lang.StackOverflowError
     	at 随笔.深入理解java虚拟机.StackOverFlow.main(StackOverFlow.java:12)
     	at 随笔.深入理解java虚拟机.StackOverFlow.main(StackOverFlow.java:12)
     	at 随笔.深入理解java虚拟机.StackOverFlow.main(StackOverFlow.java:12)

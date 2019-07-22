@@ -16,7 +16,7 @@ public class HeapOom {
      OOM异常
      java.lang.OutOfMemoryError: Java heap space
      Dumping heap to java_pid17072.hprof ...
-     Heap dump file created [28459533 bytes in 0.199 secs]
+     Heap dump file created [28459533 bytes Main1 0.199 secs]
 
      * */
 

@@ -1,5 +1,6 @@
 package 随笔.面试;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
@@ -14,6 +15,7 @@ public class Main {
 
 
     public static void main(String[] args) {
+        new ArrayList();
         Map hashmap = new HashMap();
         hashmap.put(null,null);
 
@@ -25,7 +27,6 @@ public class Main {
         hashmap.forEach((K,V)->{
             System.out.println(K+" "+V);
         });
-
 
         hashmap = new Hashtable();
         hashmap.forEach((K,V)->{

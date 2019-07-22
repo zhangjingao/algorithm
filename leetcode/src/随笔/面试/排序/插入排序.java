@@ -16,6 +16,8 @@ public class 插入排序 {
                 if (arr[j] > arr[index]) {
                     swap(arr, index, j);
                     index = j;
+                } else {
+                    break;
                 }
             }
         }
