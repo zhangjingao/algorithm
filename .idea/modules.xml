@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/acmbluebridge.iml" filepath="$PROJECT_DIR$/acmbluebridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sword_finger_offer/sword_finger_offer.iml" filepath="$PROJECT_DIR$/sword_finger_offer/sword_finger_offer.iml" />
     </modules>
   </component>
 </project>

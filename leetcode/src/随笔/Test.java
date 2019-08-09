@@ -17,6 +17,25 @@ public class Test {
         System.out.println(d);
         String s = ",1";
         System.out.println(Arrays.toString(s.split(","))+" "+s.split(",").length);
+
+        SD sd = new SD();
+        sd.a = 30;
+        createM (sd);
+        System.out.println(sd.a+" "+sd.b);
+
+
     }
+
+    private static void createM(SD sd) {
+        sd.a = 90;
+        sd.b = 80;
+    }
+
+}
+
+class SD {
+
+    int a = 10;
+    int b = 20;
 
 }
