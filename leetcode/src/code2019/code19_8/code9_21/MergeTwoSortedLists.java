@@ -1,5 +1,6 @@
 package code2019.code19_8.code9_21;
 
+
 import java.util.List;
 
 /**
@@ -17,30 +18,26 @@ public class MergeTwoSortedLists {
         if (l2 == null) {
             return l1;
         }
-        ListNode result = l1;
-        ListNode tmp = result;
+        ListNode result = new ListNode(0);
+        ListNode resultTmp = result;
         while (l1 != null) {
-            System.out.println(l1.val +" "+l2.val);
             if (l2 == null) {
-                tmp.next = l1;
-                tmp = tmp.next;
+                resultTmp.next = l1;
                 break;
             }
             if (l1.val < l2.val) {
-                System.out.println("---"+l1.val);
-                tmp.next = l1;
+                resultTmp.next = l1;
                 l1 = l1.next;
-                System.out.println(l1.val);
             } else {
-                tmp.next = l2;
+                resultTmp.next = l2;
                 l2 = l2.next;
             }
-            tmp = tmp.next;
+            resultTmp = resultTmp.next;
         }
-        if (l2 != null) {
-            tmp.next = l2;
+        if (l2 !=  null) {
+            resultTmp.next = l2;
         }
-        return result;
+        return result.next;
     }
 
     public static void main(String[] args) {
@@ -52,9 +49,9 @@ public class MergeTwoSortedLists {
 
         ListNode l2 = new ListNode(1);
         ListNode l22 = new ListNode(3);
-        ListNode l23 = new ListNode(4);
+//        ListNode l23 = new ListNode(4);
         l2.next = l22;
-        l22.next = l23;
+//        l22.next = l23;
 
         ListNode result = new MergeTwoSortedLists().mergeTwoLists(l1, l2);
         while (result != null) {
@@ -68,5 +65,5 @@ public class MergeTwoSortedLists {
 class ListNode {
      int val;
       ListNode next;
-      ListNode(int x) { val = x; }
+      ListNode(int x) { this.val = x; }
 }

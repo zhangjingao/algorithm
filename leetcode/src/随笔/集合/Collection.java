@@ -34,7 +34,7 @@ public class Collection {
         System.out.println(maps.keySet().iterator().next());
 
 
-        //位运算
+        //位运算_查重
         int a = 1;
         int b = 2;
         a = a ^ b;

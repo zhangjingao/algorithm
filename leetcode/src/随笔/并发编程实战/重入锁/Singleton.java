@@ -10,18 +10,22 @@ public class Singleton {
 
     public static void main(String[] args) {
         //枚举的单例
-        System.out.println(SingletonFactory.singletonEnum.getInstace().hashCode());
+        System.out.println(SingletonFactory.singletonEnum);
     }
 
 }
 
+/**
+ * 懒汉式单例
+ */
 class SingletonClass {
 
     private static SingletonClass singletonClass = null;
 
-    private SingletonClass () {}
+    private SingletonClass() {
+    }
 
-    protected static SingletonClass getInstance () {
+    protected static SingletonClass getInstance() {
         synchronized (SingletonClass.class) {
             if (singletonClass == null) {
                 singletonClass = new SingletonClass();
@@ -34,25 +38,55 @@ class SingletonClass {
 
 }
 
-//枚举实现的单例
+/**
+ * 枚举实现的单例
+ */
 enum SingletonFactory {
 
-    singletonEnum;
+    /**
+     * SingletonFactory的一个实例
+     */
+    singletonEnum(1);
 
-    private SingletonFactoryClass singletonFactoryClass;
+    private Integer num;
 
-    SingletonFactory () {
-        singletonFactoryClass = new SingletonFactoryClass();
+    SingletonFactory(int i) {
+        this.num = i;
     }
 
-    public SingletonFactoryClass getInstace () {
-        return singletonFactoryClass;
+    public Integer getNum() {
+        return num;
     }
-
 }
+
 //需要实现单例的类
 class SingletonFactoryClass {
 
-    public SingletonFactoryClass(){}
+    public SingletonFactoryClass() {
+    }
+
+}
+
+/**
+ * 双重检查创建的单例
+ */
+class SingletonBothSynchronized {
+
+    public static volatile SingletonBothSynchronized singletonBothSynchronized;
+
+    private SingletonBothSynchronized() {
+    }
+
+    private static SingletonBothSynchronized getInstance() {
+        if (singletonBothSynchronized == null) {
+            synchronized (SingletonBothSynchronized.class) {
+                if (singletonBothSynchronized == null) {
+                    singletonBothSynchronized = new SingletonBothSynchronized();
+                }
+            }
+        }
+        return singletonBothSynchronized;
+    }
+
 
 }
