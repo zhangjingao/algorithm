@@ -2,6 +2,7 @@ package 随笔;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author zjg
@@ -32,9 +33,9 @@ public class Test {
         for (int i = Integer.MIN_VALUE; i < Integer.MAX_VALUE; i++) {
             num++;
         }
-        System.out.println( ((double)2147483647 * 4) / 1024 / 1024 / 1024);
-        System.out.println("num: "+num+" "+(4294967296L ) / ((long)1024 * 1024 * 1024));
-        System.out.println((long)4 * 1024 * 1024 * 1024 );
+
+        ConcurrentHashMap map = new ConcurrentHashMap();
+
     }
 
     private static void createM(SD sd) {

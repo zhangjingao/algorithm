@@ -23,7 +23,6 @@ public class 位运算_排序 {
                     System.out.println(i * 8 + j);
                 }
             }
-
         }
     }
 

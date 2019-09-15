@@ -1,3 +1,5 @@
+package 随笔.面试.排序;
+
 import java.util.Arrays;
 
 /**
@@ -31,7 +33,7 @@ public class DuiSort {
 
     }
 
-    public static void maxHeapify (int[] arr, int size) {
+    private static void maxHeapify(int[] arr, int size) {
         for (int i = size - 1; i >= 0; i--) {
             sort(arr, i,size);
         }
@@ -40,10 +42,8 @@ public class DuiSort {
     public static void main(String[] args) {
         int[] arr = {10,3,1,12,9,5,4};
         for (int i = 0; i < arr.length; i++) {
-
             //每次建堆就可以排除一个元素了
             maxHeapify(arr, arr.length - i);
-
             //交换
             int temp = arr[0];
             arr[0] = arr[(arr.length - 1) - i];
