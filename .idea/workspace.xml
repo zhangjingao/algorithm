@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1bd90c8-cead-437d-9524-b013bf6369b5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/code2019/code19_9/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/code2019/code19_9/code15_122/BestTimetoBuyandSellStockII.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/code2019/code19_9/code15_134/GasStation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/code2019/code19_9/code15_207/CourseSchedule.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/知识点/manjianyouhui.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/排序/堆排序.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/排序/快排.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/同城58/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/同城58/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/同城58/Main3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/奇安信/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/奇安信/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/字节跳动3/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/字节跳动3/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/字节跳动3/Main3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/字节跳动3/Main33.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/字节跳动3/Main4.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/小米/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/小米/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/度小满2/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/度小满2/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/携程2/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/携程2/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/携程2/Main3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/有赞/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/有赞/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/滴滴/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/滴滴/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/笔试360_2/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/笔试360_2/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/笔试360_2/Main22.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/美团2/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/美团2/Main11.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/美团2/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/转转58/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/转转58/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/笔试/转转58/Main3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/面经/面经0908/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/面经/面经_字节跳动/第三套0908/Main2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/面经/面经_字节跳动/第三套0908/Main3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/面经/面经_字节跳动/第三套0908/Main4.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/code2019/code19_8/Main.java" afterPath="$PROJECT_DIR$/leetcode/src/code2019/code19_8/Main.java" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcodepulign/leetcode-plugin/cn/[48]旋转图像.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/随笔/Test.java" afterPath="$PROJECT_DIR$/leetcode/src/随笔/Test.java" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/随笔/知识点/位运算_排序.java" afterPath="$PROJECT_DIR$/leetcode/src/随笔/知识点/位运算_排序.java" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/随笔/面试/排序/DuiSort.java" afterPath="$PROJECT_DIR$/leetcode/src/随笔/面试/排序/DuiSort.java" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/code2019/code19_9/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -135,6 +90,26 @@
                 <element signature="e#181#182#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="451" column="17" lean-forward="true" selection-start-line="451" selection-start-column="17" selection-end-line="451" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,6 +145,7 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/leetcode/src/code2019/code19_9/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -399,10 +375,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1092000" />
+    <option name="totallyTimeSpent" value="1187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -414,7 +391,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28100988" sideWeight="0.49932975" order="2" side_tool="false" content_ui="tabs" x="177" y="277" width="1314" height="340" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44127333" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30186608" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -443,14 +420,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/src/随笔/知识点/位运算_返回确认缺失数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/随笔/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
@@ -740,14 +709,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1483">
-          <caret line="468" column="51" lean-forward="true" selection-start-line="468" selection-start-column="51" selection-end-line="468" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/code2019/code19_8/code15_5/LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -780,6 +741,22 @@
             <element signature="e#181#182#0" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="451" column="17" lean-forward="true" selection-start-line="451" selection-start-column="17" selection-end-line="451" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
